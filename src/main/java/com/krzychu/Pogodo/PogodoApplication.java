@@ -36,7 +36,7 @@ public class PogodoApplication extends Application
         root = fxmlLoader.load();
 
         primaryStage.setTitle("Pogodo (wersja " + ver + ")");
-        Scene scene = new Scene(root, 800, 600);
+        Scene scene = new Scene(root);//Scene(root, 800, 600);
         
         scene.setFill(new Color(0.1, 0.1, 0.8, 0));
         
